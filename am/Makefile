@@ -1,6 +1,6 @@
 # Makefile for AM layer
 LIB	= am
-INCDIR	= ${MINIREL_HOME}/h
+INCDIR	= ${MINIREL_PROJECT}/h
 INCS	= 
 SRCS	= 
 TESTS	= amtest.c

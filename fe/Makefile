@@ -1,6 +1,6 @@
 # Makefile for FE layer
 LIB	= fe
-INCDIR	= ${MINIREL_HOME}/h
+INCDIR	= ${MINIREL_PROJECT}/h
 INCS	= 
 SRCS	= 
 TESTS	= fetest-ddl.c fetest-dml.c

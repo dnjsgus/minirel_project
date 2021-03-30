@@ -1,6 +1,6 @@
 # Makefile for HF layer
 LIB	= hf
-INCDIR	= ${MINIREL_HOME}/h
+INCDIR	= ${MINIREL_PROJECT}/h
 INCS	= 
 SRCS	= 
 TESTS	= hftest.c
