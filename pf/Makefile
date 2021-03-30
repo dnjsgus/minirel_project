@@ -1,6 +1,6 @@
 # Makefile for PF layer
 LIB	= pf
-INCDIR	= ${MINIREL_HOME}/h
+INCDIR	= ${MINIREL_PROJECT}/h
 INCS	= 
 SRCS	= 
 TESTS	= pftest.c
