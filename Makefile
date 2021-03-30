@@ -1,9 +1,9 @@
 .PHONY: all compile clean install
 
-MINIREL_HOME = YOUR_WORKING_DIR
+# MINIREL_HOME = YOUR_WORKING_DIR
 
-TARGET	= ${MINIREL_HOME}/bin
-LTARGET	= ${MINIREL_HOME}/lib
+TARGET	= ${MINIREL_PROJECT}/bin
+LTARGET	= ${MINIREL_PROJECT}/lib
 #SUBDIRS = bf pf hf am fe parser minirel datagen
 SUBDIRS = bf pf hf am fe
 ALLDIRS = h ${SUBDIRS}

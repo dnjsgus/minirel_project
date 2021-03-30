@@ -1,6 +1,6 @@
 # Makefile for BF layer
 LIB	= bf
-INCDIR	= ${MINIREL_HOME}/h
+INCDIR	= ${MINIREL_PROJECT}/h
 INCS	= 
 SRCS	= 
 TESTS	= bftest.c
