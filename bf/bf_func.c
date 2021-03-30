@@ -14,9 +14,12 @@
 #include "bf_struct.h"
 #include "bf_ds.h"
 
-
-
-
+/************************************************
+    The global data structures to be maintained 
+*************************************************/
+BFpool bfpool;
+Freelist freelist;
+Hashtable hashtable;
 
 /***********************************
      The actual user functions
@@ -51,5 +54,5 @@ void BF_ShowBuf(void){
 }
 
 void BF_PrintError(const char *s){
-	
+
 }
