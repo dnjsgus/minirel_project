@@ -72,7 +72,10 @@ void BF_Init(void){
 	}
 }
 
-
+/************************************************** 
+ * 2. BF_GetBuf
+ *    Takes BFreq ba, PFpage **fpage as input, and returns int.
+ * 
 
 int BF_GetBuf(BFreq bq, PFpage **fpage){
 
